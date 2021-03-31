@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -702,6 +702,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+
 }
 
 h2 {
@@ -1039,4 +1040,9 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+:focus {
+    border: solid 5px black;
 }
