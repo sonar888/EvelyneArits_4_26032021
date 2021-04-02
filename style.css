@@ -1071,3 +1071,10 @@ q {
 .text-center {
     align-items: center;
 }
+
+.tact {
+    min-height: 50px;
+    vertical-align: middle;
+    margin: auto 0;
+
+}
