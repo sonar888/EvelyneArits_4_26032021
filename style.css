@@ -40,8 +40,8 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .bloc-lg {
@@ -1066,4 +1066,8 @@ q {
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+.text-center {
+    align-items: center;
 }
