@@ -2,33 +2,39 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8"/>
+		
 
-		<link rel="preload" as="image" href="img/"/>
-		<link rel="preload" as="style" href="style.css" />
-		<link rel="preload" as="image" href="img/texture-paper.png"/>
-		
-		
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css" defer>
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" defer>
-		<link rel="canonical" href="https://sonar888.github.io/EvelyneArits_4_26032021/index.html">
-		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-		
-		
-		<script src="./js/jquery-2.1.0.js" defer></script>
-		<script src="./js/bootstrap.js" defer></script>
-		<script src="./js/blocs.js" defer></script>
-		<script src="./js/jquery.touchSwipe.js" defer></script>
-		<!-- <script src="./js/gmaps.js"></script> -->
-
-		
 		<meta name="description" content="La Chouette agence est une entreprise de web designe basée à Lyon, qui aide les commerçants locaux à se lancer sur le net!"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="robots" content="index, follow"/>
 		<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 		<link rel="canonical" href="https://sonar888.github.io/EvelyneArits_4_26032021/index.html">
 	
 		<title>La Chouette Agence - Entreprise de web design, Lyon</title>
+
+		<link rel="preload" as="image" href="img/"/>
+		<link rel="preload" as="style" href="style.css" />
+		<link rel="preload" as="image" href="img/la-chouette-agence-banniere.jpg"/>
+		
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- <script src="https://kit.fontawesome.com/7c9183587f.js" crossorigin="anonymous"></script> -->
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css" defer>
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css" defer>
+		<link rel="canonical" href="https://sonar888.github.io/EvelyneArits_4_26032021/index.html">
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<!-- <script src="./js/jquery-2.1.0.js" defer></script> -->
+		<!-- <script src="./js/bootstrap.js" defer></script> -->
+		<!-- <script src="./js/blocs.js" defer></script> -->
+		<!-- <script src="./js/jquery.touchSwipe.js" defer></script> -->
+		<!-- <script src="./js/gmaps.js"></script> -->
+
+		
+		
 	
 		
 	<!-- Analytics -->
@@ -55,7 +61,7 @@
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
+						<a class="navbar-brand" href="index.html"><img id="logo" src="img/la-chouette-agence.png" alt="Logo de l'agence: une chouette stylisée" class="center-block image-resize-mode"/></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
@@ -81,7 +87,7 @@
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace">
 						<div class="col-sm-12">
-							<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo de l'agence: en fond un rond noir avec au milieu le design de la chouette dans des tons orange et jaune" />
+							<img src="img/logo.png" class="center-block image-resize-mode" id="img" alt="Le même logo mais sur fond noir et lignes orangées" />
 							<h1 class="text-center hero-bloc-text tc-white ">
 								La chouette agence
 							</h1>	
@@ -90,7 +96,7 @@
 					<div class="col-md-2 col-md-offset-5">
 						<div class="col-12">
 							<div class="text-center">
-								<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+								<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Contact</a>
 							</div>
 						</div>
 					</div>
@@ -184,7 +190,7 @@
 					<div class="row tight-width-whitespace portfolio-row">
 						<figure class="col-md-6 col-sm-12">
 							<a class="center-img" href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
-								<img src="img/1.jpg" alt="image illustrant le travail fait pour un site web de journal, des journaux ouverts superposés l'un sur l'autre" class="img-responsive portfolio-thumb" />
+								<img src="img/1.jpg" alt="image pour illustrer: des journaux ouverts superposés l'un sur l'autre" class="img-responsive portfolio-thumb" />
 							</a>
 							<h3 class="mg-md text-center">
 								Refonte d'un site web pour un journal local
@@ -195,7 +201,7 @@
 						</figure>
 						<figure class="col-md-6 col-sm-12">
 							<a class="center-img" href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
-								<img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Image pour illustrer: une photo de profil d'une jeune fille dans une ville la nuit qui prend une photo avec un appareil sur un trépied"/>
+								<img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="Image pour illustrer: une photo de profil d'une jeune fille qui prend une photo avec un appareil"/>
 							</a>
 							<h3 class="mg-md text-center">
 								Création d'un site web pour photographes
@@ -207,7 +213,7 @@
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
 						<figure class="col-sm-6">
-							<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="Image pour illustrer: une photo prise de dessus de matériel de photographie que peut utiliser un voyageur. Le matériel est ranger, aligner, et comprend entre autre un PC Apple, plusieurs appareils photos et un drone pour filmer"/></a>
+							<a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb" alt="Image pour illustrer: une photo prise de dessus de matériel de photographie aligné et ordonné"/></a>
 							<h3 class="mg-md text-center">
 								Création d'un site internet pour un voyageur
 							</h3>
@@ -216,7 +222,7 @@
 							</p>
 						</figure>
 						<figure class="col-sm-6">
-							<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="Image pour illuster: une photo prise de dessus qui mntre un table de travail en désordre, des mains qui travaillent sur un PC portable et une tasse de café" /></a>
+							<a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb" alt="Image pour illuster: une photo prise de dessus qui montre une table de travail en désordre" /></a>
 							<h3 class="mg-md text-center">
 								Conception d'un site pour une agence de mariage
 							</h3>
@@ -239,7 +245,7 @@
 					</div>
 					<div class="col-12">
 						<div class="text-center">
-							<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+							<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Contact</a>
 						</div>
 					</div>
 				</div>
